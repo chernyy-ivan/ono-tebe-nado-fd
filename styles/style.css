@@ -103,7 +103,6 @@ margin-right: 31px;
   position: relative;
   padding:  135px 50px 50px;
   box-sizing:border-box;
-  
 }
 
 .cover__title {
@@ -119,7 +118,6 @@ margin-right: 31px;
   display: block;
   letter-spacing: 0.34em;
   margin-top: 33px;
-  
 }
 
 .aligned-text_center {
@@ -129,17 +127,14 @@ margin-right: 31px;
 
 .aligned-text_right {
   text-align: right;
- 
 }
 
 .letter-spacing-extended {
   letter-spacing: 0.22em;
-  
 }
 
 .no-letter-spacing {
   letter-spacing: 0;
-  
 }
 
 .cover__description {
@@ -205,7 +200,7 @@ margin-right: 31px;
   width: 100%; 
   align-content: flex-start;
  transform: translateY(10px);
-  
+ margin-left: 3px;
 }
 
 .lots__card-list-item {
@@ -223,7 +218,6 @@ margin-right: 31px;
   height: 100%;
   width: 100%;
   transition: transform 0.3s ease;
-
 }
 
 .card-link:hover {
@@ -235,7 +229,6 @@ margin-right: 31px;
   height: 100%;
   width: 100%;
   padding:  47px 40px;
-  gap:15px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -243,7 +236,6 @@ margin-right: 31px;
   flex-direction: column;
  justify-content: space-between;
   align-items: flex-start; 
-  
 }
 
 .card_type_film {
@@ -275,9 +267,11 @@ margin-right: 31px;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: underline;
-  margin: 0; 
+  margin: 0 ; 
   position: relative;
   z-index: 2;
+  line-height: 1.2; 
+  letter-spacing: 0.02em;
 }
 
 .card__text {
@@ -286,7 +280,8 @@ margin-right: 31px;
   position: relative;
   z-index: 2;
   margin: 0;
-  
+  text-align: left;
+  word-spacing: normal;
 }
 
 .lots__look-more-link {
@@ -298,19 +293,18 @@ margin-right: 31px;
   transition: color 0.3s ease;
   display: inline-flex;
   align-items: center;
-  margin-left: 40px;
+  margin-left: 45px;
   line-height: 1.25;
+  margin-top: 14px; 
 }
 
 .lots__look-more-link:hover {
   color: #666;
 }
 /* About */
-
-/* About */
 .about {
   width: 1100px;
-  padding: 0 50px;
+ padding: 70px 50px 0; 
   margin: 180px auto 0;
   background-color: #fff;
   box-sizing: border-box;
@@ -330,7 +324,7 @@ margin-right: 31px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 35px 0 0 47px; /* ← точные отступы как в макете */
+  margin: -100px 0 0 -148px;
 }
 
 .about__logo-circle {
@@ -353,24 +347,21 @@ margin-right: 31px;
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.175;
-  margin: 3px 0 25px 0; /* ← точный top отступ */
+  margin: 0 0 25px -120px; 
 }
-
-.about__text {
+.about__text{ 
   display: flex;
   flex-direction: column;
   gap: 25px;
   font-size: 20px;
   line-height: 1.2;
-  margin: 0;
-  max-width: 693px; /* ← ограничение ширины текста */
-}
+  margin: 77px 0 0 -123px;
+  max-width: 693px; 
+  }
 
 .about__paragraph {
   margin: 0;
 }
-
-/* Footer */
 /* Footer */
 .footer {
   width: 1100px;
@@ -391,12 +382,12 @@ margin-right: 31px;
   flex-direction: column;
   align-items: flex-start;
   justify-self: start;
-  margin-left: 0; /* ← точное позиционирование */
+  margin-left: 0; 
 }
 
 .footer__menu {
   justify-self: center;
-  margin: 1px 0 0 0; /* ← точный top отступ */
+  margin: -2px 9px 0 15px ; 
 }
 
 .footer__menu-list {
@@ -410,7 +401,7 @@ margin-right: 31px;
 }
 
 .footer__menu-list-item {
-  margin: 0 0 5px 0;
+  margin: 0 0 -8px 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -442,7 +433,7 @@ margin-right: 31px;
   padding: 0;
   align-items: center;
   justify-self: end;
-  margin-top: 1px; /* ← точный top отступ */
+  margin-top: 1px; 
 }
 
 .footer__social-list-item {
