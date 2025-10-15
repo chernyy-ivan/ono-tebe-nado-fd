@@ -129,8 +129,7 @@
   position: relative;
   bottom: 123px;
   left: 14px;
- 
-}
+ }
 
 .cover__word_third {
   letter-spacing: 0.3em; /* "надо" */
@@ -269,7 +268,7 @@
   position: relative; 
   z-index: 2; 
   line-height: 1.2; 
-  } 
+} 
  
 .card__text { 
   font-size: 20px; 
@@ -396,6 +395,7 @@
   position: relative;
   bottom: 3px ;
 }
+
 .footer__menu-list { 
   display: flex; 
   flex-direction: column; 
