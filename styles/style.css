@@ -110,31 +110,26 @@
   max-width: 1000px;
   display: flex;
   flex-direction: column;
-  gap: 20px; 
+  gap: 20px;
 }
 
- 
 .aligned-text {
-  display: block; 
-  letter-spacing: 0.3em; 
- 
-
+  display: block;
+  letter-spacing: 0.3em;
 }
 
 .aligned-text_left {
- text-align: left;
- 
+  text-align: left;
 }
 
 .aligned-text_center {
- text-align: center;
- margin-right: -0.3em ;
- 
+  text-align: center;
+  margin-right: -0.3em;
 }
 
 .aligned-text_right {
- text-align: right;
-margin-right: -0.3em ;
+  text-align: right;
+  margin-right: -0.3em;
 }
 
 .cover__description {
@@ -142,14 +137,13 @@ margin-right: -0.3em ;
   justify-content: space-between;
   align-items: center;
   max-width: 1000px;
-  
 }
 
 .cover__description-text {
   font-size: 22px;
   text-transform: uppercase;
   word-spacing: 18px;
-  margin: 0 ;
+  margin: 0;
   line-height: 1.27;
 }
 
@@ -181,7 +175,6 @@ margin-right: -0.3em ;
   margin: 182px auto 0;
   background-color: #fff;
   box-sizing: border-box;
-  
 }
 
 .lots__heading {
@@ -340,7 +333,7 @@ margin-right: -0.3em ;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 97px; 
+  margin-top: 97px;
 }
 
 .about__text {
@@ -358,7 +351,6 @@ margin-right: -0.3em ;
 .about__paragraph {
   margin: 0;
   width: 100%;
-  
 }
 
 /* Footer */
@@ -387,7 +379,6 @@ margin-right: -0.3em ;
 
 .footer__menu {
   justify-self: center;
-  
 }
 
 .footer__menu-list {
@@ -397,7 +388,6 @@ margin-right: -0.3em ;
   text-align: center;
   justify-content: center;
   line-height: 1.1;
-  
 }
 
 .footer__menu-list-item {
